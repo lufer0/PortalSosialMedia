@@ -1,46 +1,110 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");
+/* CSS for screens smaller than 600px */
+@media (max-width: 600px) {
+  .linktree {
+    width: 100%; /* Set width to 100% for small screens */
+    padding: 10px; /* Reduce padding for small screens */
+  }
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
+  .linktree h2 {
+    font-size: 16px; /* Reduce font size of title for small screens */
+  }
+
+  .linktree a {
+    font-size: 12px; /* Reduce font size of links for small screens */
+  }
+}
+
+
+.linktree {
+  width: 300px; /* Set width of container */
+  margin: 0 auto; /* Center container on the page */
+}
+
+.linktree h2 {
+  text-align: center; /* Center title text */
+  font-size: 18px; /* Set font size of title */
+  margin-top: 20px; /* Add margin to top of title */
+}
+
+.linktree ul {
+  list-style-type: none; /* Remove bullet points from list */
+  padding: 0; /* Remove padding from list */
+  margin: 0; /* Remove margin from list */
+}
+
+.linktree a {
+  color: #000; /* Set color of links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 14px; /* Set font size of links */
+  display: block; /* Make links take up full width of list item */
+  padding: 10px; /* Add padding to links */
+  margin-bottom: 5px; /* Add margin to bottom of links */
+  transition: all 0.2s ease-in-out; /* Add transition effect to links */
+}
+
+.linktree a:hover {
+  background-color: #f1f1f1; /* Change background color of link on hover */
+  color: #007bff; /* Change color of link text on hover */
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5; /*set background color*/
 }
 
-section {
+.linktree {
+  background-color: #fff; /*set background color for container*/
+  padding: 20px; /*add padding to container*/
+  border-radius: 10px; /*add rounded corners to container*/
+  box-shadow: 2px 2px 10px #ccc; /*add shadow effect to container*/
+}
+
+#logo {
+  display: block; /* Make logo a block element */
+  margin: 0 auto; /* Center logo horizontally */
+  width: 100px; /* Set width of logo */
+  height: auto; /* Set height automatically */
+  text-align: center; /* Center logo horizontally */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(
-    -45deg,
-    #3f51b1 0%,
-    #5a55ae 13%,
-    #7b5fac 25%,
-    #8f6aae 38%,
-    #a86aa4 50%,
-    #cc6b8e 62%,
-    #f18271 75%,
-    #f3a469 87%,
-    #f7c978 100%
-  );
-  background-size: 400% 400%;
-  position: relative;
-  animation: animate 7.5s ease-in-out infinite;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-@keyframes animate {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #0077CC;
 }

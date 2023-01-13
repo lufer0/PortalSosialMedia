@@ -11,186 +11,42 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- End BOOTSTRAP -->
     <!-- My Style.css -->
     <link rel="stylesheet" href="style.css" />
     <!-- End My Style.css -->
   </head>
   <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top bg-primary"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="img/logokelas.png"
-            alt="Logo LUFER"
-            width="32"
-            height="31"
-            class="d-inline-block align-text-top"
-          />
-          Sosial Media Class TKJ 1
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="true"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/Slide 1.jpg" class="d-block w-100" alt="..."
-          border-radius="15px" background: #73AD21; padding="20px" width="200px"
-          height: 150px; />
-        </div>
-        <div class="carousel-item">
-          <img src="img/Slide 1.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="img/Slide 1.jpg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- Card and Background -->
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/project1.bmp"
-                class="card-img-top"
-                alt="Projects 1"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Project tentang anime atau web yang berisikan berita anime,
-                  project ini belum selesai jika kalian ingin melihatnya bisa
-                  cek di github saya.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/project2.jpg"
-                class="card-img-top"
-                alt="Projects 2"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img
-                src="img/project3.jpg"
-                class="card-img-top"
-                alt="Projects 3"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Projects -->
-    <!-- End Card and Background -->
-
-    <!-- JS BOOTSTRAP -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <!-- End JS BOOTSTRAP -->
+    <header>
+      <div class="header">
+        <img src="img/logokelas.png" alt="logo" id="logo">
+      </div>      
+    </header>
+   <div class="linktree">
+  <h2>SOSMED CLASS XI TKJ 1</h2>
+  <ul>
+    <li><a href="https://www.instagram.com/myusername" class="fab fa-instagram"> Instagram</a></li>
+    <li><a href="https://twitter.com/myusername" class="fab fa-twitter"> Twitter</a></li>
+    <li><a href="https://www.facebook.com/myusername" class="fab fa-facebook"> Facebook</a></li>
+    <li><a href="https://www.youtube.com/myusername" class="fab fa-youtube"> YouTube</a></li>
+  </ul>
+  <h2>Gathering</h2>
+  <ul>
+    <li><a href="https://www.mywebsite1.com">Mata Pelajaran</a></li>
+    <li><a href="https://www.mywebsite2.com">Galeri Kelas</a></li>
+    <li><a href="https://www.mywebsite3.com">Panitia 9</a></li>
+  </ul>
+</div>
+<footer>
+  <div class="container">
+    <p>Copyright ©2023 Pembuat LUFER</p>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
   </body>
 </html>
