@@ -74,6 +74,17 @@ footer {
   color: rgb(0, 0, 0);
   padding: 20px 0;
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+      flex-wrap: wrap;
+  }
 }
 
 footer .container {
